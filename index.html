@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="SQL DataTable portlet : Analyze multiple SQL databases on your own portal">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>SQL DataTable portlet</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/flarroca/sql-datatable-portlet">View on GitHub</a>
+
+          <h1 id="project_title">SQL DataTable portlet</h1>
+          <h2 id="project_tagline">Analyze multiple SQL databases on your own portal</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/flarroca/sql-datatable-portlet/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/flarroca/sql-datatable-portlet/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>Aimed to deliver a simple and fast option to analyze multiple databases in a single portal, this portlet can execute plain SQL queries using multiple connection pools, across different database engines. The result is render in HTML using JQuery DataTables, balancing client and server side processing.</p>
+
+<p><img src="images/screenshot-small.png" alt="3 engines"></p>
+
+<p>DataTables is a popular open source JQuery plugin designed to enhance the accessibility of data in HTML tables, providing pagination, sort and search capabilities, with several options and extensions to support typical end user and developer requirements.</p>
+
+<p>To support millions of rows, a server side processing was implemented to search, sort and paginate results using SQL database capabilities. But for small tables, the portlet switch the processing to the client side, avoiding AJAX call overloads and improving response times. </p>
+
+<p>This was possible due to a tight integration with DataTables and reusing Liferay data source libraries, witch also accelerate the development.</p>
+
+<p><img src="images/screenshot-xs-small.png" alt="Extra small devices"><img src="images/screenshot-xs-search-small.png" alt="Extra small search"></p>
+
+<p>Its is a spin-off of a larger project, with simplified configuration, without additional infrastructure requirements. It lacks of metadata management, caching mechanisms and abstraction of queries and connections. But with the right configuration it can execute your SQL fast and it is easy to uninstall.</p>
+
+<h2>
+<a id="database-support" class="anchor" href="#database-support" aria-hidden="true"><span class="octicon octicon-link"></span></a>Database support</h2>
+
+<p>Supports the same databases that Liferay Portal support, including MySQL, PostgreSQL, DB2, Oracle, SQL Server, Hypensonic. Also can be configured to work with C3P0, Apache DHCP or Tomcat connection pool libraries.</p>
+
+<h2>
+<a id="datatables-extension-support" class="anchor" href="#datatables-extension-support" aria-hidden="true"><span class="octicon octicon-link"></span></a>DataTables extension support</h2>
+
+<p>By default supports three DataTables extensions. <a href="https://www.datatables.net/extensions/fixedcolumns/">FixedColumns</a>, <a href="https://www.datatables.net/extensions/colreorder/">ColReorder</a>, <a href="https://datatables.net/examples/api/highlight.html">HighlightingColumns</a>, other can be injected through portlet configuration.</p>
+
+<h2>
+<a id="current-status" class="anchor" href="#current-status" aria-hidden="true"><span class="octicon octicon-link"></span></a>Current status</h2>
+
+<p>First pre-release. The first release will support only Liferay 6.2+, targeting MySQL and PostgreSQL with CP3P0.</p>
+
+<h2>
+<a id="source-code" class="anchor" href="#source-code" aria-hidden="true"><span class="octicon octicon-link"></span></a>Source Code</h2>
+
+<p><a href="https://github.com/flarroca/sql-datatable-portlet">This</a> is the main source code repository of the project.</p>
+
+<h2>
+<a id="quick-start" class="anchor" href="#quick-start" aria-hidden="true"><span class="octicon octicon-link"></span></a>Quick Start</h2>
+
+<p>You need a running Liferay Portal 6.2+ to deploy this portlet. A pre-build portal can be found at <a href="http://liferay.com/downloads">Liferay download page</a>, follow this <a href="http://liferay.com/quick-start">step-by-step guide</a> to run your own portal.</p>
+
+<p>Download the .lpkg file from the <a href="http://www.liferay.com/marketplace">Liferay Marketplace</a> or the .war file from this repository.</p>
+
+<p>Go to the portal <em>Control Panel</em> &gt; <em>Apps</em> &gt; <em>App Manager</em> &gt; <em>Install</em>, select the .lpkg or .war file and click Install.  The portlet will be available to place on any page. You can monitor connections pools in <em>Control Panel</em> &gt; <em>Configuration</em> &gt; <em>SQL Pools</em>.</p>
+
+<p>Drop the portlet in the page, go to the portlet configuration, select the database driver, enter the database URL, user and password, and paste your SQL. </p>
+
+<h2>
+<a id="bug-tracker-and-feature-requests" class="anchor" href="#bug-tracker-and-feature-requests" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bug tracker and feature requests</h2>
+
+<p>Comments, critics, bugs and new feature requests are very appreciated. Please place any issue <a href="https://github.com/flarroca/sqldatatable-portlet/issues/new">here</a>.  </p>
+
+<h2>
+<a id="contributions-and-license" class="anchor" href="#contributions-and-license" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributions and license</h2>
+
+<p>All kind of contributions are welcome. This repository is public and includes the required source code to build and debug the portlet. The proposed license is Apache version 2, see <a href="https://raw.githubusercontent.com/flarroca/sqldatatable-portlet/master/LICENSE">LICENCE</a></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">SQL DataTable portlet maintained by <a href="https://github.com/flarroca">flarroca</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
