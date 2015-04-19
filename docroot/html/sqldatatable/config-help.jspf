@@ -1,0 +1,697 @@
+<liferay-ui:panel-container extended="<%=true%>" persistState="<%=false%>">
+   <liferay-ui:panel collapsible="<%=true%>" defaultState="close" extended="<%=false%>" title="options-reference">
+      <a title="Features"></a>
+      <h2 data-anchor="Features">Features</h2>
+   
+      <div id="DataTables_Table_0_wrapper">
+         <table id="DataTables_Table_0">
+            <thead>
+               <tr>
+                  <th width="30%" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending">Name</th>
+                  <th rowspan="1" colspan="1" aria-label="Summary: activate to sort column ascending">Summary</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/autoWidth"><code> autoWidth </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Feature control DataTables' smart column width handling</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/deferRender"><code> deferRender </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Feature control deferred rendering for additional speed of initialisation.</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/info"><code> info </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Feature control table information display field</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/jQueryUI"><code> jQueryUI </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Use markup and classes for the table to be themed by jQuery UI ThemeRoller.</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/lengthChange"><code> lengthChange </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Feature control the end user's ability to change the paging display length of the table.</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/ordering"><code> ordering </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Feature control ordering (sorting) abilities in DataTables.</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/paging"><code> paging </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Enable or disable table pagination.</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/processing"><code> processing </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Feature control the processing indicator.</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/scrollX"><code> scrollX </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Horizontal scrolling</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/scrollY"><code> scrollY </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Vertical scrolling</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/searching"><code> searching </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Feature control search (filtering) abilities</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/serverSide"><code> serverSide </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Feature control DataTables' server-side processing mode.</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/stateSave"><code> stateSave </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>State saving - restore table state on page reload</p></td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+   
+      <a title="Data"></a>
+      <h2 data-anchor="Data">Data</h2>
+   
+      <div id="DataTables_Table_1_wrapper">
+         <table id="DataTables_Table_1">
+            <thead>
+               <tr>
+                  <th width="30%" aria-controls="DataTables_Table_1" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending">Name</th>
+                  <th rowspan="1" colspan="1" aria-label="Summary: activate to sort column ascending">Summary</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/ajax.data"><code> ajax.data </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Add or modify data submitted to the server upon an Ajax request</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/ajax.dataSrc"><code> ajax.dataSrc </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Data property or manipulation method for table data</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/ajax"><code> ajax </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Load data for the table's content from an Ajax source</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/data"><code> data </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Data to use as the display data for the table.</p></td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+   
+      <a title="Callbacks"></a>
+      <h2 data-anchor="Callbacks">Callbacks</h2>
+   
+      <div id="DataTables_Table_2_wrapper">
+         <table id="DataTables_Table_2">
+            <thead>
+               <tr>
+                  <th width="30%" aria-controls="DataTables_Table_2" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending">Name</th>
+                  <th rowspan="1" colspan="1" aria-label="Summary: activate to sort column ascending">Summary</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/createdRow"><code> createdRow </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Callback for whenever a TR element is created for the table's body.</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/drawCallback"><code> drawCallback </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Function that is called every time DataTables performs a draw.</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/footerCallback"><code> footerCallback </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Footer display callback function.</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/formatNumber"><code> formatNumber </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Number formatting callback function.</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/headerCallback"><code> headerCallback </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Header display callback function.</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/infoCallback"><code> infoCallback </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Table summary information display callback.</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/initComplete"><code> initComplete </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Initialisation complete callback.</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/preDrawCallback"><code> preDrawCallback </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Pre-draw callback.</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/rowCallback"><code> rowCallback </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Row draw callback.</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/stateLoadCallback"><code> stateLoadCallback </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Callback that defines where and how a saved state should be loaded.</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/stateLoaded"><code> stateLoaded </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>State loaded callback.</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/stateLoadParams"><code> stateLoadParams </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>State loaded - data manipulation callback</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/stateSaveCallback"><code> stateSaveCallback </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Callback that defines how the table state is stored and where.</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/stateSaveParams"><code> stateSaveParams </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>State save - data manipulation callback</p></td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+   
+      <a title="Options"></a>
+      <h2 data-anchor="Options">Options</h2>
+   
+      <div id="DataTables_Table_3_wrapper">
+         <table id="DataTables_Table_3">
+            <thead>
+               <tr>
+                  <th width="30%" aria-controls="DataTables_Table_3" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending">Name</th>
+                  <th rowspan="1" colspan="1" aria-label="Summary: activate to sort column ascending">Summary</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/deferLoading"><code> deferLoading </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Delay the loading of server-side data until second draw</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/destroy"><code> destroy </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Destroy any existing table matching the selector and replace with the new options.</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/displayStart"><code> displayStart </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Initial paging start point</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/dom"><code> dom </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Define the table control elements to appear on the page and in what order</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/lengthMenu"><code> lengthMenu </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>
+                        Change the options in the page length
+                        <code>select</code>
+                        list.
+                     </p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/orderCellsTop"><code> orderCellsTop </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Control which cell the order event handler will be applied to in a column</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/orderClasses"><code> orderClasses </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Highlight the columns being ordered in the table's body</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/order"><code> order </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Initial order (sort) to apply to the table</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/orderFixed"><code> orderFixed </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Ordering to always be applied to the table</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/orderMulti"><code> orderMulti </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Multiple column ordering ability control.</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/pageLength"><code> pageLength </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Change the initial page length (number of rows per page)</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/pagingType"><code> pagingType </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Pagination button display options</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/renderer"><code> renderer </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Display component renderer types</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/retrieve"><code> retrieve </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Retrieve an existing DataTables instance</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/scrollCollapse"><code> scrollCollapse </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Allow the table to reduce in height when a limited number of rows are shown.</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/search.caseInsensitive"><code> search.caseInsensitive </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Control case-sensitive filtering option.</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/search.regex"><code> search.regex </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Enable / disable escaping of regular expression characters in the search term.</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/search.search"><code> search.search </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Set an initial filtering condition on the table.</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/search.smart"><code> search.smart </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Enable / disable DataTables' smart filtering</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/searchCols"><code> searchCols </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Define an initial search for individual columns.</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/searchDelay"><code> searchDelay </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Set a throttle frequency for searching</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/search"><code> search </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Set an initial filter in DataTables and / or filtering options.</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/stateDuration"><code> stateDuration </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Saved state validity duration</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/stripeClasses"><code> stripeClasses </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Set the zebra stripe class names for the rows in the table.</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/tabIndex"><code> tabIndex </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Tab index control for keyboard navigation</p></td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+   
+      <a title="Columns"></a>
+      <h2 data-anchor="Columns">Columns</h2>
+   
+      <div id="DataTables_Table_4_wrapper">
+         <table id="DataTables_Table_4">
+            <thead>
+               <tr>
+                  <th width="30%" aria-controls="DataTables_Table_4" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending">Name</th>
+                  <th rowspan="1" colspan="1" aria-label="Summary: activate to sort column ascending">Summary</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/columnDefs.targets"><code> columnDefs.targets </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Assign a column definition to one or more columns.</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/columnDefs"><code> columnDefs </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Set column definition initialisation properties.</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/columns.cellType"><code> columns.cellType </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Cell type to be created for a column</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/columns.className"><code> columns.className </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Class to assign to each cell in the column</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/columns.contentPadding"><code> columns.contentPadding </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Add padding to the text content used when calculating the optimal with for a table.</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/columns.createdCell"><code> columns.createdCell </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Cell created callback to allow DOM manipulation</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/columns.data"><code> columns.data </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Set the data source for the column from the rows data object / array</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/columns.defaultContent"><code> columns.defaultContent </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Set default, static, content for a column</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/columns.name"><code> columns.name </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Set a descriptive name for a column</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/columns.orderable"><code> columns.orderable </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Enable or disable ordering on this column</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/columns.orderData"><code> columns.orderData </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Define multiple column ordering as the default order for a column</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/columns.orderDataType"><code> columns.orderDataType </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Live DOM sorting type assignment</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/columns.orderSequence"><code> columns.orderSequence </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Order direction application sequence</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/columns.render"><code> columns.render </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Render (process) the data for use in the table</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/columns.searchable"><code> columns.searchable </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Enable or disable filtering on the data in this column</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/columns.title"><code> columns.title </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Set the column title</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/columns.type"><code> columns.type </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Set the column type - used for filtering and sorting string processing</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/columns.visible"><code> columns.visible </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Enable or disable the display of this column</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/columns.width"><code> columns.width </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Column width assignment</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/columns"><code> columns </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Set column specific initialisation properties.</p></td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+   
+      <a title="Internationalisation"></a>
+      <h2 data-anchor="Internationalisation">Internationalisation</h2>
+   
+      <div id="DataTables_Table_5_wrapper">
+         <table id="DataTables_Table_5">
+            <thead>
+               <tr>
+                  <th width="30%" aria-controls="DataTables_Table_5" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending">Name</th>
+                  <th rowspan="1" colspan="1" aria-label="Summary: activate to sort column ascending">Summary</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/language.aria.sortAscending"><code> language.aria.sortAscending </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Language strings used for WAI-ARIA specific attributes</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/language.aria.sortDescending"><code> language.aria.sortDescending </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Language strings used for WAI-ARIA specific attributes</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/language.aria"><code> language.aria </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Language strings used for WAI-ARIA specific attributes</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/language.decimal"><code> language.decimal </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Decimal place character</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/language.emptyTable"><code> language.emptyTable </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Table has no records string</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/language.info"><code> language.info </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Table summary information display string</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/language.infoEmpty"><code> language.infoEmpty </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Table summary information string used when the table is empty or records</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/language.infoFiltered"><code> language.infoFiltered </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Appended string to the summary information when the table is filtered</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/language.infoPostFix"><code> language.infoPostFix </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>String to append to all other summary information strings</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/language.lengthMenu"><code> language.lengthMenu </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Page length options string</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/language.loadingRecords"><code> language.loadingRecords </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Loading information display string - shown when Ajax loading data</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/language.paginate.first"><code> language.paginate.first </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Pagination 'first' button string</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/language.paginate.last"><code> language.paginate.last </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Pagination 'last' button string</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/language.paginate.next"><code> language.paginate.next </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Pagination 'next' button string</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/language.paginate.previous"><code> language.paginate.previous </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Pagination 'previous' button string</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/language.paginate"><code> language.paginate </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Pagination specific language strings</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/language.processing"><code> language.processing </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Processing indicator string</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/language.search"><code> language.search </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Search input string</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/language.searchPlaceholder"><code> language.searchPlaceholder </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Search input element placeholder attribute</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/language.thousands"><code> language.thousands </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Thousands separator</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/language.url"><code> language.url </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Load language information from remote file</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/language.zeroRecords"><code> language.zeroRecords </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Table empty as a result of filtering string</p></td>
+               </tr>
+               <tr>
+                  <td><p>
+                        <a target="_blank" href="//datatables.net/reference/option/language"><code> language </code></a><input type="text" name="" value="" class="hide" /><i class="icon-pencil"></i>
+                     </p></td>
+                  <td><p>Language configuration options for DataTables</p></td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+   </liferay-ui:panel>
+</liferay-ui:panel-container>
