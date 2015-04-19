@@ -38,4 +38,4 @@ Drop the portlet in the page, go to the portlet configuration, select the databa
 Comments, critics, bugs and new feature requests are very appreciated. Please place any issue [here](https://github.com/flarroca/sqldatatable-portlet/issues/new).  
 
 ## Contributions and license
-All kind of contributions are welcome. This repository is public and includes the required source code to build and debug the portlet. The proposed license is Apache version 2, see [LICENCE](https://raw.githubusercontent.com/flarroca/sqldatatable-portlet/master/LICENSE)
+All kind of contributions are welcome. This repository is public and includes the required source code to build and debug the portlet. The proposed license is Apache version 2, see [LICENSE](https://raw.githubusercontent.com/flarroca/sqldatatable-portlet/master/LICENSE)
