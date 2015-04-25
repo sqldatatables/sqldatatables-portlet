@@ -1,4 +1,4 @@
-# SQL DataTable portlet for Liferay
+# SQL DataTables portlet for Liferay
 Aimed to deliver a simple and fast option to analyze multiple databases in a single portal, this portlet can execute plain SQL queries using multiple connection pools, across different database engines. The result is render in HTML using JQuery DataTables, balancing client and server side processing.
 
 ![3 engines](images/screenshot-small.png)
